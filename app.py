@@ -24,16 +24,16 @@ with col2:
 
 with col1:
     viewer_code = """
-    <div style="position: relative; width: 100%; height: 560px; overflow: hidden; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.4); font-family: sans-serif; background: #111;">
+    <div style="position: relative; width: 100%; height: 560px; overflow: hidden; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.4); font-family: sans-serif; background: #000;">
       
-      <!-- LAYER PASSATO: Ricostruzione Storica Roma Antica -->
+      <!-- LAYER PASSATO: Ricostruzione Storica Roma Antica (Arena integra) -->
       <img id="ancient-img" 
-           src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_ricostruzione.jpg/1280px-Colosseo_ricostruzione.jpg" 
+           src="https://images.unsplash.com/photo-1552832230-c0197dd311b5?q=80&w=1600&auto=format&fit=crop" 
            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;" />
 
       <!-- LAYER OGGI: Colosseo Attuale (Rovine) -->
       <div id="modern-container" style="position: absolute; top: 0; left: 0; width: 50%; height: 100%; overflow: hidden; border-right: 4px solid #f39c12; z-index: 2;">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/1280px-Colosseo_2020.jpg" 
+        <img src="https://images.unsplash.com/photo-1543429776-2782fc8e1acd?q=80&w=1600&auto=format&fit=crop" 
              style="position: absolute; top: 0; left: 0; width: 100vw; max-width: none; height: 100%; object-fit: cover;" />
       </div>
 
